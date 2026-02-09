@@ -70,7 +70,7 @@
                     <Region prefHeight="84.0" prefWidth="146.0" />
 
                     <!-- ÍCONES -->
-                    <HBox prefHeight="60.0" prefWidth="161.0">
+                    <HBox prefHeight="84.0" prefWidth="225.0">
                         <children>
                             <ImageView fitHeight="52.0" preserveRatio="true">
                                 <image>
@@ -89,6 +89,11 @@
                                     <Image url="@../images/3183361.png" />
                                 </image>
                             </ImageView>
+                     <ImageView fitHeight="50.0" fitWidth="56.0" onMouseClicked="#mostrarSobre" styleClass="icon-click">
+                        <image>
+                           <Image url="@../images/9222662.png" />
+                        </image>
+                     </ImageView>
                         </children>
                     </HBox>
 
