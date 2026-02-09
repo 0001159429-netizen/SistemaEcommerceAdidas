@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:controller="com.example.sistemaecomerceadidas.controller.CalcadosFemininoController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemaecomerceadidas.controller.CalcadosFemininoController">
    <children>
       <HBox alignment="BOTTOM_LEFT" prefHeight="64.0" prefWidth="1100.0">
          <children>
@@ -22,11 +22,28 @@
             <Region prefHeight="64.0" prefWidth="137.0" />
             <ImageView fitHeight="36.0" fitWidth="45.0">
                <image>
-                  <Image url="@../../../../../../../../Pictures/3183361.png" />
+                  <Image url="@../images/3183361.png" />
                </image>
             </ImageView>
             <TextField prefHeight="37.0" prefWidth="314.0" />
             <Region prefHeight="64.0" prefWidth="210.0" />
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_LEFT" prefHeight="295.0" prefWidth="1100.0">
+         <children>
+            <Region prefHeight="295.0" prefWidth="100.0" />
+            <ImageView fitHeight="225.0" fitWidth="206.0">
+               <image>
+                  <Image url="@../images/images (1).jpeg" />
+               </image>
+            </ImageView>
+            <Region prefHeight="295.0" prefWidth="113.0" />
+            <ImageView fitHeight="224.0" fitWidth="220.0">
+               <image>
+                  <Image url="@../images/images.jpeg" />
+               </image>
+            </ImageView>
+            <Region prefHeight="295.0" prefWidth="123.0" />
          </children>
       </HBox>
    </children>
