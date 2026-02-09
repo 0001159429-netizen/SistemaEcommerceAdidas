@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:controller="com.example.sistemaecomerceadidas.controller.CalcadosFemininoController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="BOTTOM_LEFT" prefHeight="64.0" prefWidth="1100.0">
+         <children>
+            <Region prefHeight="64.0" prefWidth="56.0" />
+            <Label text="CALÇADOS">
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="29.0" />
+               </font>
+            </Label>
+            <Region prefHeight="64.0" prefWidth="137.0" />
+            <ImageView fitHeight="36.0" fitWidth="45.0">
+               <image>
+                  <Image url="@../../../../../../../../Pictures/3183361.png" />
+               </image>
+            </ImageView>
+            <TextField prefHeight="37.0" prefWidth="314.0" />
+            <Region prefHeight="64.0" prefWidth="210.0" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane fx:id="root" maxWidth="1272.0" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemaecomerceadidas.controller.MainController">
+
+    <top>
+        <VBox prefHeight="144.0">
+   
+            <!-- BARRA SUPERIOR -->
+            <Rectangle height="56.0" stroke="BLACK" strokeType="INSIDE" width="1277.0" />
+
+            <!-- HEADER -->
+            <HBox prefHeight="94.0" prefWidth="945.0">
+
+                <children>
+
+                    <Region prefWidth="37.0" />
+
+                    <!-- LOGO -->
+                    <ImageView fitHeight="72.0" fitWidth="108.0" preserveRatio="true">
+                        <image>
+                            <Image url="@../images/Adidas_logo.png" />
+                        </image>
+                    </ImageView>
+
+                    <Region prefHeight="84.0" prefWidth="220.0" />
+
+                    <!-- MENU -->
+                    <MenuBar prefHeight="84.0" prefWidth="483.0" style="-fx-padding: 20 40 20 40; -fx-font-weight: bold; -fx-font-size: 20px;">
+                        <menus>
+                            <Menu text="FEMININO">
+                                <items>
+                                    <MenuItem onAction="#abrirTela" text="ROUPAS" userData="roupas_feminino.fxml" />
+                                    <MenuItem onAction="#abrirTela" text="CALÇADOS" userData="calcados_feminino.fxml" />
+                                </items>
+                            </Menu>
+
+                            <Menu text="MASCULINO">
+                                <items>
+                                    <MenuItem onAction="#abrirTela" text="ROUPAS" userData="roupas_masculino.fxml" />
+                                    <MenuItem onAction="#abrirTela" text="CALÇADOS" userData="calcados_masculino.fxml" />
+                                </items>
+                            </Menu>
+
+                            <Menu text="INFANTIL">
+                                <items>
+                                    <MenuItem onAction="#abrirTela" text="ROUPAS" userData="roupas_infantil.fxml" />
+                                    <MenuItem onAction="#abrirTela" text="CALÇADOS" userData="calcados_infantil.fxml" />
+                                </items>
+                            </Menu>
+                        </menus>
+
+                        <cursor>
+                            <Cursor fx:constant="DEFAULT" />
+                        </cursor>
+                    </MenuBar>
+
+                    <Region prefHeight="84.0" prefWidth="146.0" />
+
+                    <!-- ÍCONES -->
+                    <HBox prefHeight="60.0" prefWidth="161.0">
+                        <children>
+                            <ImageView fitHeight="52.0" preserveRatio="true">
+                                <image>
+                                    <Image url="@../images/img.png" />
+                                </image>
+                            </ImageView>
+
+                            <ImageView fitHeight="49.0" preserveRatio="true">
+                                <image>
+                                    <Image url="@../images/png-transparent-shopping-bags-trolleys-computer-icons-online-shopping-shopping-bag-icon-retail-rectangle-shopping-bags-trolleys.png" />
+                                </image>
+                            </ImageView>
+
+                            <ImageView fitHeight="44.0" preserveRatio="true">
+                                <image>
+                                    <Image url="@../images/3183361.png" />
+                                </image>
+                            </ImageView>
+                        </children>
+                    </HBox>
+
+                </children>
+
+                <padding>
+                    <Insets bottom="15" left="20" right="20" top="15" />
+                </padding>
+
+            </HBox>
+        </VBox>
+    </top>
+
+</BorderPane>
